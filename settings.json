@@ -1,11 +1,13 @@
 {
     "editor.formatOnPaste": true,
     "editor.renderIndentGuides": true,
+    "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "eslint.autoFixOnSave": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.startupEditor": "newUntitledFile",
