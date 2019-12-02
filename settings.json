@@ -1,21 +1,55 @@
 {
-  "css.validate": false,
+  // ### Core ###
+  
   "editor.wordWrap": "on",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.renderIndentGuides": true,
   "editor.suggestOnTriggerCharacters": false,
-  "eslint.autoFixOnSave": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "afterDelay",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onWindowChange",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Tomorrow Night Blue",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  
+  // ### Languages ###
+  
+  // CSS
+  "css.validate": false,
+  
+  // Python
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  
+  // Javascript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  
+  // Typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  
+  // ### Extensions ###
+  
+  // Colorize
+  "colorize.colorized_variables": [
+    "SASS"
+  ],
+  "colorize.include": [
+    "SASS"
+  ],
+  "colorize.languages": [
+    "javascript",
+  ],
+  
+  // ESLint
+  "eslint.autoFixOnSave": true,
+
+  // Prettier
+  "prettier.disableLanguages": [
+    "markdown"
+  ],
 }
