@@ -1,0 +1,15 @@
+DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+ghmcadams.lintlens
+kamikillerto.vscode-colorize
+ms-azuretools.vscode-docker
+ms-python.python
+msjsdiag.debugger-for-chrome
+Orta.vscode-jest
+PKief.material-icon-theme
+raymondcamden.csslint
+RobbOwen.synthwave-vscode
+thibaudcolas.stylelint
+tomoki1207.pdf
