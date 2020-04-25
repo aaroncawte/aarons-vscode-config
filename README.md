@@ -8,19 +8,31 @@ Set up VS Code by installing the below extensions, then copying `settings.json` 
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) (alternative to TNB)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
-**Front-End Development:**
+**Formatting and Linting:**
 
-- [CSSLint](https://marketplace.visualstudio.com/items?itemName=raymondcamden.CSSLint)
-- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) (or for your browser of choice)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [LintLens](https://marketplace.visualstudio.com/items?itemName=ghmcadams.lintlens)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (or for languages you use)
-
-**Useful Tools:**
-
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=thibaudcolas.stylelint)
+
+**Framework support:**
+
+- [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- [Jest](https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+**View non-text file types:**
+
+- [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
 - [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+
+**Miscellaneous:**
+
+- [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
+- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) (or for your browser of choice)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)

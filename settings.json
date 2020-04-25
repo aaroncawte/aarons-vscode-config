@@ -1,14 +1,18 @@
 {
   // ### Core ###
-  
+
   "editor.wordWrap": "on",
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
   "editor.renderIndentGuides": true,
   "editor.suggestOnTriggerCharacters": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
   "files.autoSave": "onWindowChange",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
@@ -16,24 +20,22 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  
+
   // ### Languages ###
-  
-  // CSS
-  "css.validate": false,
-  
-  // Python
-  "python.formatting.provider": "black",
-  "python.linting.flake8Enabled": true,
-  
+
   // Javascript
   "javascript.updateImportsOnFileMove.enabled": "always",
-  
+
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
   // Typescript
   "typescript.updateImportsOnFileMove.enabled": "always",
-  
+
   // ### Extensions ###
-  
+
   // Colorize
   "colorize.colorized_variables": [
     "SASS"
@@ -42,14 +44,50 @@
     "SASS"
   ],
   "colorize.languages": [
-    "javascript",
+    "javascript"
   ],
-  
-  // ESLint
-  "eslint.autoFixOnSave": true,
 
   // Prettier
   "prettier.disableLanguages": [
     "markdown"
   ],
+
+  // SVG Viewer
+  "svgviewer.previewcolumn": "Active",
+
+  // Kraken Config
+  "python.autoComplete.addBrackets": true,
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "flake8",
+  "python.formatting.provider": "black",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.validate": false,
+  "scss.validate": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.packageManager": "yarn",
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": [
+      {
+      "directory": "./packages/account-management",
+      "changeProcessCWD": true,
+    },
+    {
+      "directory": "./packages/quote",
+      "changeProcessCWD": true,
+    }
+  ],
+  "git.inputValidationSubjectLength": 70
 }
