@@ -7,7 +7,7 @@ Set up VS Code by installing the below extensions, then copying `settings.json` 
 **Theming:**
 
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) (alternative to TNB)
+- Tomorrow Night Blue (or [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) if no-one's watching)
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 **Formatting and Linting:**
